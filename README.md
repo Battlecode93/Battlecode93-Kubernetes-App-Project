@@ -1,8 +1,8 @@
-### Project Overview
+# Project Overview
 
 This project involves setting up and deploying a MongoDB-backed application on an Amazon EKS (Elastic Kubernetes Service) cluster. The setup includes configuring the EKS cluster, deploying MongoDB using StatefulSets, creating a RESTful API to interact with the MongoDB database, and deploying a frontend application. The entire process ensures that the application is scalable and resilient, leveraging Kubernetes' capabilities.
 
-### Architecture
+# Architecture
 
 1. **EKS Cluster**: The backbone of the deployment, providing a managed Kubernetes environment.
 2. **MongoDB**: Deployed using StatefulSets for persistence and high availability.
